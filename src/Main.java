@@ -65,8 +65,5 @@ public class Main {
         System.out.println("--- Invoice with negative quantity and price ---");
         System.out.println(invoiceNegQuantAndPrice.toString());
         System.out.println("Invoice amount: " + invoiceNegQuantAndPrice.getInvoiceAmount());
-
-
-
     }
 }

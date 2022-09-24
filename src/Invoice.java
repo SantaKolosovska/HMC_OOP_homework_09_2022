@@ -1,9 +1,9 @@
 public class Invoice {
 
-    String partNumber;
-    String partDescription;
-    int quantity;
-    int itemPrice;
+    private String partNumber;
+    private String partDescription;
+    private int quantity;
+    private int itemPrice;
 
     public Invoice() {
     }
