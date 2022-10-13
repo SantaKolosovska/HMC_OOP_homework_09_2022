@@ -1,3 +1,5 @@
+package homework1;
+
 public class Invoice {
 
     private String partNumber;

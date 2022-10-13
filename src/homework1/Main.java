@@ -1,6 +1,8 @@
+package homework1;
+
 public class Main {
 
-    // --- Demonstration of Invoice class functionality ---
+    // --- Demonstration of homework1.Invoice class functionality ---
 
     public static void main(String[] args) {
 
