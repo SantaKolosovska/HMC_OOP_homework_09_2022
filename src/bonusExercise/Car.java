@@ -9,6 +9,9 @@ public class Car {
     }
 
     public Car(double fuelEfficiency) {
+        if (fuelEfficiency<=0) {
+           throw new IllegalArgumentException("Fuel efficiency must be larger than 0");
+        }
         this.fuelEfficiency = fuelEfficiency;
     }
 
@@ -17,6 +20,9 @@ public class Car {
     }
 
     public void addFuel(int fuelAmount) {
+        if (fuelAmount<=0) {
+            throw new IllegalArgumentException("Added fuel amount must be larger than 0");
+        }
         fuelLevel += fuelAmount;
     }
 
